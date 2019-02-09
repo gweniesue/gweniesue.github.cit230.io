@@ -26,44 +26,22 @@ h1 {
 
 }
 
-nav{
-    display: inline-block;
-    margin: 20px auto;
+nav {
+    margin: 0;
     background-color: #A5CBF4;
     border: 1px solid #A5CBF4;
     box-shadow: 0 0 30px #777;
-    text-align: left;
-    font-family: 'Alegreya', serif; 
-} 
-
-ul {
-    list-style-type: none;
-    font-size: 1.25em;
-
-    background-color: #A5CBF4
-    
-
 }
-li {
-    
-    float: left;
-    width: 200px;
-    height: 50px;
-    margin: auto;
-    vertical-align: center;
+section {
+    margin 15px;
 }
-li a {
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-
-    
+article {
+    margin: 20px;
 }
 
-li a:hover {
-    background-color: #C4DAF4;
+footer {
+    background-color: #A5CBF4;
+    padding: 8px;
 }
 
 .motto {
@@ -71,14 +49,98 @@ li a:hover {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-}
-
-.site-nav {
-
 
 }
+.navmenus {
+    margin: 20px auto;
+    text-align: left;
+    font-family: 'Alegreya', serif; 
+} 
+.navmenus ul li a {
+    display: block;
+
+}
+.navmenus ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A5CBF4
+    
+
+}
+.navmenus li {
+    
+     
+    width: 100%;
+    height: 50px;
+    margin: auto;
+
+}
+.navmenus li a {
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 1.25em;
+
+    
+}
+
+.navmenus li a:hover {
+    background-color: #C4DAF4;
+}
+
 
 .active {
     background-color: #4C69A5;
 
+}
+.weatherboximage {
+    width: 100%;
+}
+.currentweatherbox {
+    margin: 10px auto;
+    position: relative;
+}
+.currentweather {
+     position: absolute;
+     top: 10px;
+     margin: 0px;
+     background-color: #A5CBF4;
+     padding: .5rem;
+     text-align: center;
+
+}
+.currentweather p {
+    margin: 0;
+}
+
+.fivedayforecast {
+    display: none;
+}
+
+
+.allaboutpreston {
+    background-color: #A5CBF4
+}
+
+.articlepicture {
+    float: right;
+    width: 35%;
+}
+.mapinfo {
+    background-color: #4C69A5;
+    color: #A5CBF4;
+}
+.mappic {
+    float: right;
+    width: 25%;
+    margin: 25px 50px;
+}
+.mapaddys {
+    padding: 1.5rem;
+}
+.copyinfo {
+    text-align: center;
 }
