@@ -1,9 +1,13 @@
 @media (min-width: 700px){
+    .navmenus li:first-child {
+        display: none;
+    }
 
-    .navmenus ul li a {
-        display: inline-block;
+    .navmenus li {
+        display: inline;
     
     }
+
 
     .currentweather {
         top: 50px;
@@ -23,10 +27,10 @@
    }
 
    .articlepicture {
-    width: 250px;
+        width: 250px;
 }
-.mappic {
-    width: 150px;
+    .mappic {
+        width: 150px;
 }
 
 }
