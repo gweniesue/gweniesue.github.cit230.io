@@ -1,4 +1,11 @@
 @media (min-width: 700px){
+    
+    .navmenus {
+        padding: 0;
+        text-align: center;
+
+    }
+
     .navmenus li:first-child {
         display: none;
     }

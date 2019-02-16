@@ -31,6 +31,12 @@ nav {
     background-color: #A5CBF4;
     border: 1px solid #A5CBF4;
     box-shadow: 0 0 30px #777;
+
+}
+main {
+    max-width: 850px;
+    margin:auto;
+    text-align: center;
 }
 section {
     margin: 15px;
@@ -42,6 +48,9 @@ article {
 footer {
     background-color: #A5CBF4;
     padding: 8px;
+    max-width: 850px;
+    margin: auto;
+
 }
 
 .motto {
@@ -89,17 +98,21 @@ footer {
     background-color: #C4DAF4;
 }
 
+.responsive li {
+    display: block;
+    text-align: center;
+}
 
 .active {
     background-color: #4C69A5;
 
 }
-.weatherboximage {
-    width: 100%;
-}
 .currentweatherbox {
     margin: 10px auto;
     position: relative;
+}
+.currentweatherbox img {
+    width: 100%;
 }
 .currentweather {
      position: absolute;
@@ -131,15 +144,23 @@ footer {
     background-color: #4C69A5;
     color: #A5CBF4;
 }
+.mapinfo picture {
+    width: auto;
+}
 .mappic {
+
     float: right;
-    width: 25%;
+    width: auto;
     margin: 25px 50px;
 }
 .mapaddys {
-    text-align: center;
-    font-size: .75rem;
+    text-align: left;
+    font-size: 1rem;
     padding: 1.5rem;
+}
+.mapaddys ul {
+    list-style-type: none;
+
 }
 .copyinfo {
     text-align: center;
