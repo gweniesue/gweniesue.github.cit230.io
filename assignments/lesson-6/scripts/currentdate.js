@@ -32,7 +32,7 @@
     let date = today.getDate();
     let year = today.getFullYear();
 
-    let todaydate = n + "   " + date + " " + p + " " + year    
+    let todaydate = n + ",   " + date + " " + p + " " + year    
 
     document.getElementById("todaysday").innerHTML = todaydate ;
   

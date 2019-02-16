@@ -1,5 +1,5 @@
 body {
-    background-color: #C4DAF4;
+    background-color: #D3E3FF;
     font-family: 'Alegreya', serif;
     font-size: 100%;
 }
@@ -7,7 +7,7 @@ body {
 header {
 	margin: 10px auto;
 	background-color: #4C69A5;
-	border: 1px solid #4C69A5;
+	border: 1px solid #4c69a5;
 	box-shadow: 0 0 30px #777;
     text-align: center;
     font-family: 'Alegreya', serif;
