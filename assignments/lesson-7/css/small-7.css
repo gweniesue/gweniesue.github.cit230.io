@@ -1,0 +1,167 @@
+body {
+    background-color: #FAFCFF;
+    font-family: 'Alegreya', serif;
+    font-size: 100%;
+}
+
+header {
+	margin: 10px auto;
+	background-color: #4C69A5;
+	border: 1px solid #4c69a5;
+	box-shadow: 0 0 30px #777;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    color: #ffffff;
+
+}
+
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+h1 {
+   font-style: oblique; 
+
+}
+
+nav {
+    margin: 0;
+    background-color: #A5CBF4;
+    border: 1px solid #A5CBF4;
+    box-shadow: 0 0 30px #777;
+
+}
+main {
+    max-width: 850px;
+    margin:auto;
+    text-align: center;
+}
+section {
+    margin: 15px;
+}
+article {
+    margin: 20px;
+}
+
+footer {
+    background-color: #A5CBF4;
+    padding: 8px;
+    max-width: 850px;
+    margin: auto;
+
+}
+
+.motto {
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+
+}
+.navmenus {
+    margin: 20px auto;
+    text-align: left;
+    font-family: 'Alegreya', serif; 
+} 
+
+.navmenus ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A5CBF4
+    
+}
+.navmenus li:first-child {
+    display: block;
+    text-align: center;
+}
+.navmenus li {
+    display: none;    
+    width: 100%;
+    height: 50px;
+    margin: auto;
+
+}
+.navmenus li a {
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 1.25em;
+   
+}
+
+.navmenus li a:hover {
+    background-color: #C4DAF4;
+}
+
+.responsive li {
+    display: block;
+    text-align: center;
+}
+
+.active {
+    background-color: #4C69A5;
+
+}
+.currentweatherbox {
+    margin: 10px auto;
+    position: relative;
+}
+.currentweatherbox img {
+    width: 100%;
+}
+.currentweather {
+     position: absolute;
+     top: 10px;
+     margin: 0px;
+     background-color: #A5CBF4;
+     padding: .5rem;
+     text-align: center;
+
+}
+.currentweather p {
+    margin: 0;
+}
+
+.fivedayforecast {
+    display: none;
+}
+
+
+.allaboutpreston {
+    background-color: #A5CBF4
+}
+
+.articlepicture {
+    float: right;
+    width: 35%;
+}
+.mapinfo {
+    background-color: #4C69A5;
+    color: #A5CBF4;
+}
+.mapinfo picture {
+    width: auto;
+}
+.mappic {
+
+    float: right;
+    width: auto;
+    margin: 25px 50px;
+}
+.mapaddys {
+    text-align: left;
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+.mapaddys ul {
+    list-style-type: none;
+
+}
+.copyinfo {
+    text-align: center;
+}

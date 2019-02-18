@@ -1,0 +1,64 @@
+.background{
+	width: 200px;
+    height: 150px;
+    font-size: 2rem;
+	background: #6058ef;
+	border: solid 5px #0096ff;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+    transition-delay: .5s;
+}
+.background2{
+	width: 200px;
+    height: 150px;
+    font-size: 2rem;
+	background: #b224c5;
+	border: solid 5px #50034c;
+	transition: width 3s ease-in-out, font 1.5s ease 1s;
+}
+.background3{
+	width: 200px;
+    height: 150px;
+    font-size: 2rem;
+	background: #58ef6c;
+	border: solid 5px #055e05;
+	transition: width 3s ease;
+}
+.background4{
+	width: 200px;
+    height: 150px;
+    font-size: 2rem;
+	background: #f15005;
+	border: solid 5px #816f06;
+	transition: background 1s ease-in;
+}
+.background5{
+	width: 200px;
+    height: 150px;
+    font-size: 2rem;
+	background: #c6f105;
+	border: solid 5px #927d04;
+    transition: background 3s ease-in, width 3s linear;
+}
+.background:hover {
+    width: 600px;
+    background-color: #5f0a81;
+}
+.background2:hover {
+    width: 600px;
+    font-size: 4rem;
+    background-color: #44283b;
+}
+.background3:hover {
+    width: 600px;
+    background-color: #075007;
+}
+.background4:hover {
+    width: 600px;
+    background-color: #7a3309;
+}
+.background5:hover {
+    width: 600px;
+    background-color: #fd08e9;
+}
