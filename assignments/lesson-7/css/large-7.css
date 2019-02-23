@@ -1,5 +1,14 @@
-@media (min-width: 700px){
+@media (min-width: 780px){
     
+   
+
+
+    nav {
+        flex-direction: row;  
+    }
+    .headings img {
+        display: right;
+    }
     .navmenus {
         padding: 0;
         text-align: center;
@@ -38,6 +47,10 @@
 }
     .mappic {
         width: 150px;
+}
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 }

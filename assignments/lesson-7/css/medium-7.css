@@ -1,0 +1,28 @@
+@media (min-width:480; max-width:780){
+
+
+    nav {
+        flex-direction: row;  
+    }
+
+    .navmenus {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .navmenus li:first-child {
+        display: none;
+    }
+
+    .navmenus li {
+        display: inline;
+    
+    }
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .75em;
+    
+    }
+
+}

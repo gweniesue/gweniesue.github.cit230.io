@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Alegreya%7cRoboto" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small-7.css">
+    <link rel="stylesheet" href="css/medium-7.css">
     <link rel="stylesheet" href="css/large-7.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
         <img src="images/forestpicture.png" alt="forest picture logo">
         <section class="headings">
           <h1>South East Idaho Weather Project</h1>
-          <div class="motto">Your Weather and More</div>
+          <p class="motto">Your Weather and More</p>
         </section>
     </header>
     <nav >
@@ -26,7 +27,7 @@
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>        
+                <li><a href="gallery-7.html">Gallery</a></li>        
             </ul>
     </nav>
     <main>
@@ -36,18 +37,24 @@
         <section>
             <div class="currentweatherbox">
                 <picture>
-                    <source srcset="images/cit230_image_franklin1000pix.jpg" media="(min-width:575px)">
-                    <img src="images/cit230_image_franklin500pixsmall.jpg" alt="mountain sunshine view">
+                    <source srcset="images/patohara1000px.jpg" media="(min-width:900px)">
+                    <source srcset="images/patohara750px.jpg" media="(min-width:525px)">       
+                    <img src="images/patohara500px.jpg" alt="springtime in the mountains">
                 </picture>
                 <div class="currentweather">
                     <h3>Weather Summary</h3>
-                    
-                    <p>Currently: Sunny</p>
-                    <p>High: 44&deg;</p>
-                    <p>Wind Chill: 65&deg;</p>
-                    <p>Humidity: 5%</p>
-                    <p>Wind Speed: 4 mph</p>
-                    
+                    <div class="weatherdetails">
+                        <div class="label">Currently:</div>
+                        <div class="value">Sunny</div>
+                        <div class="label">Temperature:</div>
+                        <div class="value"><span id="temperature">44</span> &deg;</div>
+                        <div class="label">Wind Chill:</div>
+                        <div class="value" id="windchill"></div>
+                        <div class="label">Humidity:</div>
+                        <div class="value"> 5%</div>
+                        <div class="label">Wind Speed:</div>
+                        <div class="value"><span id="windspeed">25</span> mph</div>    
+                     </div>
                 </div>
             </div>
         </section>
@@ -115,5 +122,6 @@
     </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
