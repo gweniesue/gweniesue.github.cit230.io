@@ -191,6 +191,11 @@ footer {
     list-style-type: none;
 
 }
+#weathertitle{
+    padding: 1em;
+    font-size: 1.75em;
+    
+}
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
