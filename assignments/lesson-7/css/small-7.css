@@ -203,11 +203,13 @@ footer {
     text-align: center;
 }
 .galleryimage {
-    justify-content: center;
+    border: 1px solid #bbb;
 }
-.galleryimage:hover{
-    box-shadow: 0 0 30px #777;
+.galleryimage img {
+    width: 100%;
+    height: auto;
 }
+
 .copyinfo {
     text-align: center;
 }
