@@ -33,6 +33,9 @@ tbody tr:nth-child(odd){
 tbody tr:nth-child(even){
     background-color: #e7f0ed;
 }
+tr:nth-child(6) td:first-child {
+    font-style: italic;
+}
 
 tfoot {
     font-size: .75rem;
