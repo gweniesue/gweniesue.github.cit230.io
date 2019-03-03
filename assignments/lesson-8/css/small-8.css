@@ -340,4 +340,5 @@ textarea {
     font-size: 1.5rem;
     font-weight: bold;
     text-shadow: 1px 1px 1px #777;
+    height: 150px;
 }
