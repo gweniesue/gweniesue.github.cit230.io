@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>South East Idaho Weather Project: Preston, ID</title>
+    <meta name="description" content="Comprehensive Weather Forcasts and Local Information">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya%7cRoboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-9.css">
+    <link rel="stylesheet" href="css/medium-9.css">
+    <link rel="stylesheet" href="css/large-9.css">
+</head>
+<body>
+    <header>
+        <img src="images/forestpicture.png" alt="forest picture logo">
+        <section class="headings">
+          <h1>South East Idaho Weather Project</h1>
+          <p class="motto">Your Weather and More</p>
+        </section>
+    </header>
+    <nav >
+            <ul class="navmenus">
+                <li><a href="#" onclick="hamburger()">&equiv; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="preston-9.html" >Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#" class="active" >Storm Center</a></li>
+                <li><a href="gallery-9.html">Gallery</a></li>        
+            </ul>
+    </nav>
+    <main>
+        <header>
+            <h2>South East Idaho StormChasers</h2>
+        </header>
+        <form method="get" action="thanks-9.html">
+            <fieldset>
+                <legend>StormChaser Information</legend>
+                <label class="personal">Full Name* <input type="text" name="fullname" pattern="[A-Za-z\s]{5,}" required></label>
+                <label class="personal">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="personal">Phone* <input type="tel" name="phone" required placeholder="1235551234"></label>
+                <label class="personal">Zipcode*<input type="number" name="zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Center Information</legend>
+                <label class="storminformation">Storm Date <input type="date" name="stormdate"></label>
+                <label class="storminformation" for="stormtypes">Type of Storm:</label>
+                <input list="typeofstorm" id="stormtypes" name="stormtypes" />
+                    <datalist id="typeofstorm">
+                        <option value="Blizzard">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Rain">
+                        <option value="Snow">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">  
+                    </datalist>
+                <br>
+
+
+                <label class="stormseverity" for="rating">Storm Severity Rating (1 to 10):</label>
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="stormrating(this.value)" onchange="stormrating(this.value)">
+                <span id="ratingvalue">5</span>
+
+
+                <label class="storminformation">Storm Region</label>
+                    <select name="subject">
+                    <option value="">Select Region</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodasprings">Soda Springs</option>
+                    <option value="fishhaven">Fish Haven</option>
+                    </select>
+
+
+                <label class="stormdanger">Am I In Danger</label> 
+                    <input class="stormdanger" type="radio" name="danger" value="yes"> Yes<br>
+                    <input class="stormdanger" type="radio" name="danger" value="maybe"> Maybe<br>
+                    <input class="stormdanger" type="radio" name="danger" value="no"> No<br>
+                
+
+
+                <label class="storminformation">Additional Storm Information</label>
+                <textarea rows="10" cols="45"></textarea>  
+            </fieldset>
+            <input class="reportbutton" type="submit" value="Report a Storm">
+        </form>
+    </main>
+    <footer>
+        <p class="copyinfo">&copy; 2019 - South East Idaho Weather Project|Attributes|Gwen Allphin <br>
+            <span id="todaysday">Saturday February 9, 2019</span>
+        </p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/stormrating.js"></script>
+</body>
+</html>
