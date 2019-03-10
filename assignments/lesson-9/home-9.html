@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>South East Idaho Weather Project: Preston, ID</title>
+    <meta name="description" content="Comprehensive Weather Forcasts and Local Information">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya%7cRoboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-9.css">
+    <link rel="stylesheet" href="css/medium-9.css">
+    <link rel="stylesheet" href="css/large-9.css">
+</head>
+<body>
+    <header>
+        <img src="images/forestpicture.png" alt="forest picture logo">
+        <section class="headings">
+          <h1>South East Idaho Weather Project</h1>
+          <p class="motto">Your Weather and More</p>
+        </section>
+    </header>
+    <nav >
+            <ul class="navmenus">
+                <li><a href="#" onclick="hamburger()">&equiv; Menu</a></li>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="preston-9.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter-9.html">Storm Center</a></li>
+                <li><a href="gallery-9.html">Gallery</a></li>        
+            </ul>
+    </nav>
+    <main>
+
+        <picture class="heropic">
+            <source srcset="images/idahomedium.jpg" media="(min-width:525px)">       
+            <img src="images/idahosmall.jpg" alt="springtime in the mountains">
+        </picture>
+        <div class="townfacts">
+            
+        </div>
+                
+        <article class="mapinfo">
+                <picture class="mappic">
+                        <img src="images/southeastidahomap150pix.jpg" alt="map of area">
+                    </picture>
+                <div class="mapaddys">
+                    <h3>South East Idaho Weather Project</h3>
+                    <ul>
+                        <li>1234 E 256 S</li>
+                        <li>Preston, ID 83263</li>
+                        <li>999-888-7777</li>
+                        <li>southeastidahoweatherproject.com</li>
+                    </ul>
+                </div>
+
+        </article>
+    </main>
+    <footer>
+        <p class="copyinfo">&copy; 2019 - South East Idaho Weather Project|Attributes|Gwen Allphin <br>
+            <span id="todaysday">Saturday February 9, 2019</span>
+        </p>
+    </footer>
+    <script src="scripts/jsontowndata.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+</body>
+</html>

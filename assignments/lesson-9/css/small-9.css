@@ -55,6 +55,7 @@ article {
 footer {
     background-color: #A5CBF4;
     padding: 8px;
+    height: 200px;
     max-width: 850px;
     margin: auto;
     box-shadow: inset 0px 0px 15px #4C69A5;
@@ -341,4 +342,26 @@ textarea {
     font-weight: bold;
     text-shadow: 1px 1px 1px #777;
     height: 150px;
+}
+
+/* Home page */
+.townfacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 250px; 
+    padding: 1rem;
+    margin: .5rem;
+	background-color: #4C69A5;
+	box-shadow: 0 0 30px #777;
+    text-align: left;
+}
+
+.heropic {
+    width: 100%;
+    max-height: 100%;
+    padding: 1rem;
+    margin: auto;
+    display: block;
+    background-color: #A5CBF4;
+   
 }
