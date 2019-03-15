@@ -22,8 +22,8 @@
     <nav >
             <ul class="navmenus">
                 <li><a href="#" onclick="hamburger()">&equiv; Menu</a></li>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="preston-9.html">Preston</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="preston-9.html" >Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="stormcenter-9.html">Storm Center</a></li>
@@ -31,37 +31,22 @@
             </ul>
     </nav>
     <main>
-
-        <picture class="heropic">
-            <source srcset="images/idahomedium.jpg" media="(min-width:525px)">       
-            <img src="images/idahosmall.jpg" alt="springtime in the mountains">
-        </picture>
-        <div class="townfacts" id="towngrid">
-
+        <header>
+            <h2>South East Idaho StormChasers</h2>
+        </header>
+        <div class="thanknote">
+            <picture>
+                <source srcset="images/thankyou.jpg" media="(min-width:900px)">       
+                <img src="images/thankyousmall.jpg" alt="thank you sign">
+            </picture>
+            <p>for spending the time to be a Storm Chaser with us!</p>
         </div>
-                
-        <article class="mapinfo">
-                <picture class="mappic">
-                        <img src="images/southeastidahomap150pix.jpg" alt="map of area">
-                    </picture>
-                <div class="mapaddys">
-                    <h3>South East Idaho Weather Project</h3>
-                    <ul>
-                        <li>1234 E 256 S</li>
-                        <li>Preston, ID 83263</li>
-                        <li>999-888-7777</li>
-                        <li>southeastidahoweatherproject.com</li>
-                    </ul>
-                </div>
-
-        </article>
     </main>
     <footer>
         <p class="copyinfo">&copy; 2019 - South East Idaho Weather Project|Attributes|Gwen Allphin <br>
             <span id="todaysday">Saturday February 9, 2019</span>
         </p>
     </footer>
-    <script src="scripts/jsontowndata.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
 </body>
