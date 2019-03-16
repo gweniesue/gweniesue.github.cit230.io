@@ -6,7 +6,6 @@ weatherforcast.send();
 weatherforcast.onload = function() {
     let forcastinfo = JSON.parse(weatherforcast.responseText); 
 
-    console.log(forcastinfo);
 
     //
     let hitemp = [];

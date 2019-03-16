@@ -34,7 +34,11 @@
    .fivedayforecast {
        display: block;
        text-align: center;
-       
+   }
+
+   .fivedayforecast td {
+       padding: 0 1rem;
+   }
 
    }
    #tableprop {
