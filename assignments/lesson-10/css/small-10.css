@@ -180,10 +180,11 @@ footer {
 .mapinfo {
     background-color: #4C69A5;
     color: #A5CBF4;
-    height: auto;
+    height: 200px;
 }
 .mapinfo picture {
     width: auto;
+    
 }
 .mappic {
 

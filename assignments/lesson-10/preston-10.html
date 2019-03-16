@@ -45,15 +45,15 @@
                     <h3>Weather Summary</h3>
                     <div class="weatherdetails">
                         <div class="label">Currently:</div>
-                        <div class="value">Sunny</div>
+                        <div class="value"><span id="current"></div>
                         <div class="label">Temperature:</div>
-                        <div class="value"><span id="temperature">44</span> &deg;</div>
+                        <div class="value"><span id="temperature"></span> &#8457;</div>
                         <div class="label">Wind Chill:</div>
                         <div class="value" id="windchill"></div>
                         <div class="label">Humidity:</div>
-                        <div class="value"> 5%</div>
+                        <div class="value"><span id="humidity"></span> &#37;</div>
                         <div class="label">Wind Speed:</div>
-                        <div class="value"><span id="windspeed">25</span> mph</div>    
+                        <div class="value"><span id="windspeed"></span> mph</div>    
                      </div>
                 </div>
             </div>
@@ -72,14 +72,25 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><img src="images/summertime.png" alt="sun" class="forcastimage"><br>55&deg;F</td>
-                        <td><img src="images/summertime.png" alt="sun" class="forcastimage"><br>55&deg;F</td>
-                        <td><img src="images/summertime.png" alt="sun" class="forcastimage"><br>55&deg;F</td>
-                        <td><img src="images/summertime.png" alt="sun" class="forcastimage"><br>55&deg;F</td>
-                        <td><img src="images/summertime.png" alt="sun" class="forcastimage"><br>55&deg;F</td>
+                        <td><img id="currentimage1" src="" alt=""></td>
+                        <td><img id="currentimage2" src="" alt=""></td>
+                        <td><img id="currentimage3" src="" alt=""></td>
+                        <td><img id="currentimage4" src="" alt=""></td>
+                        <td><img id="currentimage5" src="" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><span id="hightemp1"></span>&#8457;</td>
+                        <td><span id="hightemp2"></span>&#8457;</td>
+                        <td><span id="hightemp3"></span>&#8457;</td>
+                        <td><span id="hightemp4"></span>&#8457;</td>
+                        <td><span id="hightemp5"></span>&#8457;</td>
                     </tr>
                 </tbody>
             </table>
+        </section>
+        <section class="events">
+
+
         </section>
         <article class="allaboutpreston">
             <h3>Article about Preston</h3>
@@ -101,27 +112,28 @@
         </article>
         <article class="mapinfo">
                 <picture class="mappic">
-                        <img src="images/southeastidahomap150pix.jpg" alt="mountain sunshine view">
-                    </picture>
+                    <img src="images/southeastidahomap150pix.jpg" alt="map of area">
+                </picture>
                 <div class="mapaddys">
                     <h3>South East Idaho Weather Project</h3>
                     <ul>
                         <li>1234 E 256 S</li>
                         <li>Preston, ID 83263</li>
-                        <li>999-888-7777</li>
-                        <li>southeastidahoweatherproject.com</li>
+                        <li>&#9742; 999-888-7777</li>
+                        <li>&#9993; southeastidahoweatherproject.com</li>
                     </ul>
                 </div>
 
         </article>
     </main>
     <footer>
-        <p class="copyinfo">&copy; 2019 - South East Idaho Weather Project|Attributes|Gwen Allphin <br>
+        <p class="copyinfo">&copy; 2019 - South East Idaho Weather Project|<a href="attributes.html">Attributes</a>| Allphin <br>
             <span id="todaysday">Saturday February 9, 2019</span>
         </p>
     </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weatherapi-10.js"></script>
+    <script src="scripts/forecast.js"></script>
 </body>
 </html>
