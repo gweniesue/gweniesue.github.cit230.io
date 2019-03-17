@@ -48,6 +48,8 @@ var output = document.getElementById('towngrid');
             myArticleContainer.appendChild(myArticle); 
 
 
+
+
             }
         }    
     };

@@ -19,6 +19,10 @@
         display: inline;
     
     }
+
+    .mapinfo {
+        height: 200px;
+}
     .gallery {
         grid-template-columns: 1fr 1fr;
         grid-gap: .75em;

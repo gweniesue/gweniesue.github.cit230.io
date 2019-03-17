@@ -122,6 +122,16 @@ footer {
 
 }
 
+.townevents {
+    background-color:#A5CBF4;
+    padding: 1rem;
+    height: auto;
+    max-width: 850px;
+    margin: auto;
+    box-shadow: inset 0px 0px 15px #4C69A5;
+}
+
+
 /*Town Weatherpage CSS*/
 
 .currentweatherbox {
@@ -180,7 +190,7 @@ footer {
 .mapinfo {
     background-color: #4C69A5;
     color: #A5CBF4;
-    height: 200px;
+    height: auto;
 }
 .mapinfo picture {
     width: auto;
