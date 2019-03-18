@@ -1,0 +1,391 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body {
+    background-color: #FAFCFF;
+    font-family: 'Alegreya', serif;
+    font-size: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+	background-color: #4C69A5;
+	border: 1px solid #4c69a5;
+	box-shadow: 0 0 30px #777;
+    text-align: right;
+    font-family: 'Alegreya', serif;
+    color: #ffffff;
+
+}
+
+header img {
+	margin: 30px 0px;
+}
+
+h1 {
+   font-style: oblique; 
+   text-align: right;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #A5CBF4;
+    box-shadow: 0 0 30px #777;
+
+
+}
+main {
+    max-width: 850px;
+    margin:auto;
+    padding: 1rem;
+    text-align: center;
+}
+section {
+    margin: 15px;
+}
+article {
+    margin: 20px;
+}
+
+footer {
+    background-color: #A5CBF4;
+    padding: 8px;
+    height: auto;
+    max-width: 850px;
+    margin: auto;
+    box-shadow: inset 0px 0px 15px #4C69A5;
+
+}
+
+.motto {
+    margin: 40px auto;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+
+}
+
+/*Navigation CSS*/
+
+.navmenus {
+
+    margin: 20px auto;
+    text-align: left;
+    font-family: 'Alegreya', serif; 
+} 
+
+.navmenus ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A5CBF4
+    
+}
+.navmenus li:first-child {
+    display: block;
+    text-align: center;
+}
+.navmenus li {
+    display: none;    
+    width: 100%;
+    height: 50px;
+    margin: auto;
+
+}
+.navmenus li a {
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 1.25em;
+   
+}
+
+.navmenus li a:hover {
+    background-color: #C4DAF4;
+}
+
+.responsive li {
+    display: block;
+    text-align: center;
+}
+
+.active {
+    background-color: #4C69A5;
+
+}
+
+.townevents {
+    background-color:#A5CBF4;
+    padding: 1rem;
+    height: auto;
+    max-width: 850px;
+    margin: auto;
+    box-shadow: inset 0px 0px 15px #4C69A5;
+}
+
+
+/*Town Weatherpage CSS*/
+
+.currentweatherbox {
+    margin: 10px auto;
+    position: relative;
+}
+.currentweatherbox img {
+    width: 100%;
+}
+.currentweather {
+     position: absolute;
+     top: 10px;
+     margin: 0px;
+     background-color: #A5CBF4;
+     padding: .5rem;
+     text-align: center;
+
+}
+.currentweather h3 {
+    border-bottom: .5px solid #fff;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+}
+.currentweather div {
+    line-height: 1.2;
+    padding: .1rem;
+    margin:0;
+
+}
+.weatherdetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: .25rem;
+
+}
+.weatherdetails .label {
+    text-align: right;
+}
+.weatherdetails .value {
+    text-align: left;
+}
+
+.fivedayforecast {
+    display: none;
+}
+
+
+.allaboutpreston {
+    background-color: #A5CBF4
+}
+
+.articlepicture {
+    float: right;
+    width: 35%;
+}
+.mapinfo {
+    background-color: #4C69A5;
+    color: #A5CBF4;
+    height: auto;
+}
+.mapinfo picture {
+    width: auto;
+    
+}
+.mappic {
+
+    float: right;
+    width: auto;
+    margin: 25px 50px;
+}
+.mapaddys {
+    text-align: left;
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+.mapaddys ul {
+    list-style-type: none;
+
+}
+#weathertitle{
+    padding: 1em;
+    font-size: 1.75em;
+    
+}
+/* CSS for Gallery Page*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .75em;
+    
+
+}
+.gallery caption {
+    font-size: .75em;
+    text-align: center;
+}
+.galleryimage {
+    border: 1px solid #bbb;
+}
+.galleryimage img {
+    width: 100%;
+    height: auto;
+}
+
+/* Copyright information*/
+.copyinfo {
+    text-align: center;
+}
+
+#todaysday {
+    text-align: center;
+}
+
+/* Storm Center */
+
+
+form fieldset {
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #4c69a5;
+    border-radius: 10px;
+    padding: 20px;
+    background: #C4DAF4;
+    text-align: left;
+    box-shadow: inset 0px 0px 15px #4C69A5;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #777;
+}
+
+form label.personal, form label.storminformation, form label.stormdanger {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.25rem;
+    width: 100%;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #777;
+
+}
+
+form label.stormdanger {
+    padding: 1.5rem 0;
+}
+
+form label.personal input, form label.storminformation input,
+ datalist.typeofstorm input{
+    display: block;
+    font-size: 1.25rem;
+    border: solid 1px #4c69a5;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #C4DAF4;
+}
+
+form input.stormdanger {
+    padding: 1rem 2rem;
+}
+
+form input.reportbutton {
+    border: none;
+    background-color: #4C69A5;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.personal input:required {
+    border-left: #f70404 dashed 6px;
+}
+
+form label.personal input:required:valid {
+    border-left: #10a341 solid 6px;
+}
+
+form input[list] {
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 6px;
+   width: 96%;
+   max-width: 18.5rem;
+   background: #C4DAF4;
+   padding: .75rem 1.5rem;
+}
+
+form label.stormseverity {
+    display: block;
+    margin:  0;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+
+textarea {
+    background: #cfe0f5;
+    border: 1px solid #A5CBF4;
+    padding: 5px 15px;
+    box-shadow: inset -1px -1px 3px #4C69A5;
+}
+
+/* Thank you Page */
+
+.thanknote {
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #4c69a5;
+    border-radius: 10px;
+    padding: 20px;
+    background: #C4DAF4;
+    text-align: center;
+    box-shadow: inset 0px 0px 15px #4C69A5;
+}
+
+#thanks {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #777;
+    height: 150px;
+}
+
+/* Home page */
+.townfacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto; 
+    padding: .25rem;
+    margin: .25rem;
+	background-color: #4C69A5;
+    text-align: center;
+}
+
+
+.townfacts article {
+    border: #A5CBF4 solid 1rem;
+    box-shadow: inset 0 0 30px #777;
+    padding: .25rem;
+    background-color: #FAFCFF;
+}
+
+
+.heropic {
+    width: 100%;
+    max-height: 100%;
+    padding: 1rem;
+    margin: auto;
+    display: block;
+    background-color: #A5CBF4;
+   
+}

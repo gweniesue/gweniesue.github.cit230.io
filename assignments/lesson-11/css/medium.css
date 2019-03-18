@@ -1,0 +1,32 @@
+@media (min-width: 480px){
+
+
+    nav {
+        flex-direction: row;  
+    }
+
+    .navmenus {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .navmenus li:first-child {
+        display: none;
+    }
+
+    .navmenus li {
+        display: inline;
+    
+    }
+
+    .mapinfo {
+        height: 200px;
+}
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .75em;
+    
+    }
+
+}
