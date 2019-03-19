@@ -362,11 +362,9 @@ textarea {
 
 /* Home page */
 .townfacts {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     height: auto; 
     padding: .25rem;
-    margin: .25rem;
+    margin: .5rem;
 	background-color: #4C69A5;
     text-align: center;
 }
@@ -381,10 +379,10 @@ textarea {
 
 
 .heropic {
-    width: 100%;
+    width: auto;
     max-height: 100%;
     padding: 1rem;
-    margin: auto;
+    margin: .5rem;
     display: block;
     background-color: #A5CBF4;
    

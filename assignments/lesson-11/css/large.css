@@ -12,7 +12,6 @@
     .navmenus {
         padding: 0;
         text-align: center;
-
     }
 
     .navmenus li:first-child {
@@ -21,14 +20,12 @@
 
     .navmenus li {
         display: inline;
-    
     }
 
 
     .currentweather {
         top: 50px;
         left: 50px;
-
    }
 
    .fivedayforecast {
@@ -40,7 +37,6 @@
        padding: 0 1rem;
    }
 
-   }
    #tableprop {
        margin-left: auto;
        margin-right: auto;
@@ -49,21 +45,25 @@
    .articlepicture {
         width: 250px;
 }
-
  
     .mappic {
         width: 150px;
 }
-.gallery {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+}
+
+    .galleryimage:hover{
+        box-shadow: 0 0 30px #777;
+}
+
+    form label.stormdanger {
+        padding: .4rem 0;
+}
+
+.townfacts {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-}
-.galleryimage:hover{
-    box-shadow: 0 0 30px #777;
-}
-
-form label.stormdanger {
-    padding: .4rem 0;
 }
 
 }
