@@ -1,9 +1,9 @@
 let weatherforcast = new XMLHttpRequest();
-let apiURLstring = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&APPID=4b0104a2ccad6190d3c46e57f9af4100';
+apiURLstring='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=4b0104a2ccad6190d3c46e57f9af4100';
 weatherforcast.open('Get', apiURLstring, true);
 weatherforcast.send();
 
-weatherforcast.onload = function() {
+weatherforcast.onload = function () {
     let forecastinfo = JSON.parse(weatherforcast.responseText);
     let hitemp = [];
     let dates = [];

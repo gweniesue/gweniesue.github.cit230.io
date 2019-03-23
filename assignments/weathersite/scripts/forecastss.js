@@ -4,29 +4,34 @@ weatherforcast.open('Get', apiURLstring, true);
 weatherforcast.send();
 
 weatherforcast.onload = function() {
-    let forcastinfo = JSON.parse(weatherforcast.responseText); 
-
-
-    //
+    let forecastinfo = JSON.parse(weatherforcast.responseText);
     let hitemp = [];
-    let day = 1;
+    let dates = [];
     let pic = [];
-    let desc = [];
-    for(let i = 1; i < forcastinfo.list.length; i++){
-        if (forcastinfo.list[i].dt_txt.includes('18:00:00')) {
-            hitemp[day] = forcastinfo.list[i].main.temp_max;
-            pic[day] = "http://openweathermap.org/img/w/" + forcastinfo.list[i].weather[0].icon + ".png";
-            desc[day] = forcastinfo.list[i].weather[0].description;
+    let day = 1; 
+    
+    for (let i = 1; i < forecastinfo.list.length; i++) {
+        
+        if (forecastinfo.list[i].dt_txt.includes('18:00:00')) {
+            hitemp[day] = forecastinfo.list[i].main.temp_max;
+            dates[day] = forecastinfo.list[i].dt_txt;
+            pic[day] = forecastinfo.list[i].weather[0].icon;
 
             day++;
         }
     }
-    for(let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= 5; i++) {
         document.getElementById('hightemp' + i).innerHTML = hitemp[i];
-        document.getElementById('currentimage' + i).setAttribute('src', pic[i]);
-        document.getElementById('currentimage' + i).setAttribute('alt', desc[i]);
-    }
-   
+        let tempdate = new Date(dates[i]);
+        let dayofweek = weekday[tempdate.getDay()];
+        document.getElementById('day' + i).innerHTML = dayofweek; 
 
-  
+        let dayicon = pic[i];
+
+        let picrc = "https://openweathermap.org/img/w/" + dayicon + ".png";
+        document.getElementById('currentimage' + i).src = picrc;
+    }
+
+    
+    
 }
