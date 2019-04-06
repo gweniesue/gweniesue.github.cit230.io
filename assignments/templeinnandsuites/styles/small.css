@@ -1,0 +1,135 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body {
+    background-color: #D0A9BF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    background-color: #975279;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+
+.headlogo {
+    padding: 1.5rem;
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation Css */
+.navlist {
+
+    width: 350px;
+    height: auto;
+    background-color: #D0A9BF;
+    padding: 15px;
+}
+
+.navlist li {
+    width: 325px;
+    height: 50px;
+    background: #95AF60;
+    list-style-type: none;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    margin: 15px;
+
+}
+
+.active {
+    background: #738e3c;
+}
+
+.navlist li:first-child {
+    display: block;
+}
+
+.navlist li {
+    display: none;
+}
+
+.navlist.responsive li {
+    display: block;
+}
+
+/* Main CSS */
+#hero {
+    display: none;
+}
+
+article {
+    background: #E6D3DE; 
+    padding: 0px 20px 0px 20px;
+
+}
+.para1 {
+    display: none;
+}
+
+#para1h3 {
+    text-align: center;
+    padding: 15px;  
+}
+
+.para2 {
+    background: #E6D3DE;
+    max-width: 850px;
+    border: 10px;
+    padding: 5px;
+}
+.paraimg {
+    width: 100%;
+    float: left;
+    padding: 0px 0px 15px 0px;
+}
+#para2h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.amenities {
+    background: rgba(230, 211, 222, 0.25);
+    border: solid #7a345c 4px;
+    display: grid;
+    grid-template-columns: repeat(6,  1fr);
+    column-gap: 1rem;
+    row-gap: 1.5rem;
+    padding: 10px 0px 20px 15px;
+}
+
+.amenities h3 {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+/* Map and contact information */
+
+.contactus {
+    background: #975279;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+/* footer CSS */
+
+.footer {
+    background: #7a345c ;
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    padding: 5px;
+}

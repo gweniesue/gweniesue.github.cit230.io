@@ -1,0 +1,38 @@
+@media (min-width: 780px){
+
+
+    header {
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        padding: 0px 0px 15px 0px;
+    }
+
+    .headlogo {
+        width: 200px;
+    }
+
+    /* Navigation Css */
+    main {
+        margin-left: 300px;
+    }
+
+    .navlist {
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        background-color: #d0a9bf;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+    
+    .navlist li {
+        width: 250px;   
+    }
+
+    #hero {
+        display: block;
+    }
+
+
+}
