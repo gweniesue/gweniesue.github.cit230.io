@@ -2,8 +2,6 @@
 
 
     header {
-        justify-content: space-evenly;
-        font-size: 1.5rem;
         padding: 0px 0px 15px 0px;
     }
 
@@ -27,11 +25,19 @@
     }
     
     .navlist li {
-        width: 250px;   
+        width: 250px;
+        text-align: left; 
+        font-size: 1.5rem; 
     }
 
     #hero {
         display: block;
+        position: relative;
+    }
+
+    .footer {
+        margin: 0 1.5rem 0 0;
+        text-align: right;
     }
 
 
