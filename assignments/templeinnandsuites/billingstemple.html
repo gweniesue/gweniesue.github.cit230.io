@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Temple Inn & Suites: Billings, MT</title>
-        <meta name="description" content="Hotel catering to Temple visitors and Missionaries">
+        <title>Billings Mt Temple</title>
+        <meta name="description" content="Temple in Billings Montana">
         <link href="https://fonts.googleapis.com/css?family=Montserrat%7cPlayfair+Display" rel="stylesheet">
         <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/small.css">
@@ -23,19 +23,35 @@
             <ul class="navlist">
                 <li class="navitems"><a href="#" onclick="hamburger()">&equiv; Menu</a></li>
                 <li class="navitems"><a href="index.html">Home</a></li>
-                <li class="navitems"><a href="temple.html" class="active">Temple</a></li>
+                <li class="navitems"><a href="billingstemple.html" class="active">Billings Temple</a></li>
+                <li class="navitems"><a href="starvalleytemple.html">Star Valley Temple</a></li>
+                <li class="navitems"><a href="columbustemple.html">Columbus Temple</a></li>
+                <li class="navitems"><a href="lubbocktemple.html">Lubbock Temple</a></li>
                 <li class="navitems"><a href="reservations.html">Reservations</a></li>
                 <li class="navitems"><a href="services.html">Services</a></li>
                 <li class="navitems"><a href="contact.html">Contact Us</a></li>       
             </ul>
         </nav>
         <main class="gridbox">
-            <picture>       
-                <img id="hero" src="images/small-billings-temple.jpg" alt="Billings Temple">
-            </picture>
-            <article>
+            <div class="currentweatherbox">
+                <div class="currentweather">
+                    <h3>Weather for Billings Montana</h3>
+                    <div class="weatherdetails">
+                    <div class="label">Currently:</div>
+                    <div class="value"><span id="current"></div>
+                    <div class="label">Temperature:</div>
+                    <div class="value"><span id="temperature"></span> &#8457;</div>
+                    <div class="label">Wind Chill:</div>
+                    <div class="value" id="windchill"></div>
+                    <div class="label">Humidity:</div>
+                    <div class="value"><span id="humidity"></span> &#37;</div>
+                    <div class="label">Wind Speed:</div>
+                    <div class="value"><span id="windspeed"></span> mph</div>    
+                    </div>
+                </div>
+                <article>
                 <p class="para2">
-                    <h3 id="para2h3">Article about Billings Mt Temple</h3>
+                    <h3 id="para2h3">Billings Montana Temple</h3>
                     <img class="paraimg" src="images/medium-ariel-billings-temple.jpg" alt="Ariel View of Billings Temple">
                     Billings, Montana's largest city, is a metropolitan hub and commercial and cultural center for a large part
                      of eastern Montana and northern Wyoming. That made it a natural choice for a temple to serve the members of
@@ -55,16 +71,10 @@
                     of the Angel Moroni statue atop the spire.
                 </p>
             </article>
-            <section class ="contactus">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4677.99780245211!2d-108.64046843319521!3d45.80015953439735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53487da2cb21cb57%3A0xbf97761acce709eb!2sBillings+Montana+Temple!5e0!3m2!1sen!2sus!4v1554511680690!5m2!1sen!2sus" alt="map to temple"></iframe>
-                <h4>Contact Information</h4>
-                <p>
-                    4800 Montgomery Ln #300<br>
-                    Bethesda, MD 20814<br>
-                    Phone: (555)555-5555<br>
-                    Email: contactus@templeinnandsuites.com
-                </p>
-            </section>
+            <article class="datesclosed">
+
+            </article>
+
         </main>
         <footer>
             <p class="footer">&copy; 2019 - Temple Inn & Suites |
@@ -72,6 +82,8 @@
             </p>
         </footer>
         <script src="javascript/hamburger.js"></script>
+        <script src="javascript//templeclosure.js"></script>
+        <script src="javascript/billingsweather.js"></script>
         <script src="javascript/currentdate.js"></script>
 	</body>
 </html>

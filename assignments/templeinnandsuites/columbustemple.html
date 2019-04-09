@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Billings Mt Temple</title>
+        <meta name="description" content="Temple in Billings Montana">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat%7cPlayfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+	<body>
+        <header>
+            <img class="headlogo" src="images/small-temple-inn-and-suites.jpg" alt="temple logo">
+            <section class="heading">
+                <h1>Temple Inn & Suites</h1>
+                <p class="motto">Your Temple is our Destination!</p>
+            </section>
+        </header>
+        <nav>
+            <ul class="navlist">
+                <li class="navitems"><a href="#" onclick="hamburger()">&equiv; Menu</a></li>
+                <li class="navitems"><a href="index.html">Home</a></li>
+                <li class="navitems"><a href="billingstemple.html">Billings Temple</a></li>
+                <li class="navitems"><a href="starvalleytemple.html">Star Valley Temple</a></li>
+                <li class="navitems"><a href="columbustemple.html" class="active">Columbus Temple</a></li>
+                <li class="navitems"><a href="lubbocktemple.html">Lubbock Temple</a></li>
+                <li class="navitems"><a href="reservations.html">Reservations</a></li>
+                <li class="navitems"><a href="services.html">Services</a></li>
+                <li class="navitems"><a href="contact.html">Contact Us</a></li>       
+            </ul>
+        </nav>
+        <main class="gridbox">
+            <div class="currentweatherbox">
+                <div class="currentweather">
+                    <h3>Weather for Columbus Ohio</h3>
+                    <div class="weatherdetails">
+                    <div class="label">Currently:</div>
+                    <div class="value"><span id="current"></div>
+                    <div class="label">Temperature:</div>
+                    <div class="value"><span id="temperature"></span> &#8457;</div>
+                    <div class="label">Wind Chill:</div>
+                    <div class="value" id="windchill"></div>
+                    <div class="label">Humidity:</div>
+                    <div class="value"><span id="humidity"></span> &#37;</div>
+                    <div class="label">Wind Speed:</div>
+                    <div class="value"><span id="windspeed"></span> mph</div>    
+                </div>
+            </div>
+            <article>
+                <p class="para2">
+                    <h3 id="para2h3">Columbus Ohio Temple</h3>
+                    <img class="paraimg" src="images/columbustemple.jpg" alt="Columbus Ohio Temple">
+                    The Columbus Ohio Temple is located 150 miles south of Kirtland, Ohio, where the restored 
+                    Church of Jesus Christ dedicated its first temple in 1836. The temple stands in a wooded 
+                    area of western Columbus adjacent to a meetinghouse in the Columbus Ohio Stake. The 
+                    beautiful white Vermont marble facing on the exterior was quarried near Sharon, Vermont, 
+                    the birthplace of the Prophet Joseph Smith.
+                    <br><br>
+                    The Columbus Ohio Temple is the first of the currently operating temples built in Ohio 
+                    and the second of the Latter-day Saint temples built in Ohio, following the Kirtland Temple (1836).
+                    <br><br>
+                    Shortly after construction began on the Columbus Ohio Temple, the floor plan was altered to 
+                    include an additional room where patrons who had traveled long distances could eat and change 
+                    clothes before presenting themselves at the recommend desk. 
+                    <br><br>
+                    Ownership of the temple site has ties to Julia Clapp Murdock, a devoted member who lived in 
+                    Kirtland at the time of Joseph Smith. On April 30, 1831, Julia passed away after giving birth 
+                    to twins on the same day that Emma gave birth to twins who died shortly after birth. Julia's 
+                    husband asked the Prophet and Emma to care for the twins, feeling he was unable. The gesture 
+                    helped softened Emma's sorrow. Julia's father, Orris, was a member of Sidney Rigdon's 
+                    congregation, who eventually became embittered toward the Church and left New York for 
+                    Ohio accompanied by his brother, Abner Clapp. Upon their arrival, Abner purchased the 
+                    land where the temple now stands. Records indicate he was the land's first owner, and as 
+                    far as can be ascertained, he did not share his brother's animosity toward the Church.
+                </p>
+            </article>
+            <article class="datesclosed">
+
+            </article>
+
+        </main>
+        <footer>
+            <p class="footer">&copy; 2019 - Temple Inn & Suites |
+                <span id="todaysday">Sunday March 31, 2019</span>
+            </p>
+        </footer>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/columbusweather.js"></script>
+        <script src="javascript//templeclosure.js"></script>
+        <script src="javascript/currentdate.js"></script>
+	</body>
+</html>

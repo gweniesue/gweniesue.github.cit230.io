@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Billings Mt Temple</title>
+        <meta name="description" content="Temple in Billings Montana">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat%7cPlayfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+	<body>
+        <header>
+            <img class="headlogo" src="images/small-temple-inn-and-suites.jpg" alt="temple logo">
+            <section class="heading">
+                <h1>Temple Inn & Suites</h1>
+                <p class="motto">Your Temple is our Destination!</p>
+            </section>
+        </header>
+        <nav>
+            <ul class="navlist">
+                <li class="navitems"><a href="#" onclick="hamburger()">&equiv; Menu</a></li>
+                <li class="navitems"><a href="index.html">Home</a></li>
+                <li class="navitems"><a href="billingstemple.html">Billings Temple</a></li>
+                <li class="navitems"><a href="starvalleytemple.html" class="active">Star Valley Temple</a></li>
+                <li class="navitems"><a href="columbustemple.html">Columbus Temple</a></li>
+                <li class="navitems"><a href="lubbocktemple.html">Lubbock Temple</a></li>
+                <li class="navitems"><a href="reservations.html">Reservations</a></li>
+                <li class="navitems"><a href="services.html">Services</a></li>
+                <li class="navitems"><a href="contact.html">Contact Us</a></li>       
+            </ul>
+        </nav>
+        <main class="gridbox">
+            <div class="currentweatherbox">
+                <div class="currentweather">
+                    <h3>Weather for Afton Wyoming</h3>
+                    <div class="weatherdetails">
+                    <div class="label">Currently:</div>
+                    <div class="value"><span id="current"></div>
+                    <div class="label">Temperature:</div>
+                    <div class="value"><span id="temperature"></span> &#8457;</div>
+                    <div class="label">Wind Chill:</div>
+                    <div class="value" id="windchill"></div>
+                    <div class="label">Humidity:</div>
+                    <div class="value"><span id="humidity"></span> &#37;</div>
+                    <div class="label">Wind Speed:</div>
+                    <div class="value"><span id="windspeed"></span> mph</div>    
+                    </div>
+                </div>
+            <article>
+                <p class="para2">
+                    <h3 id="para2h3">Star Valley Wyoming Temple</h3>
+                    <img class="paraimg" src="images/Star-Valley-Temple1-2016.jpg" alt="Star Valley Wyoming Temple">
+                    The Star Valley Wyoming temple stands on a gentle rise overlooking Highway 89, just south of the 
+                    community of Afton near the mouth of Hale Canyon. The classical design of the temple echoes 
+                    architectural elements found in the historic Star Valley Tabernacle, located just a mile north 
+                    of the temple. The pair of buildings represents the spiritual heart and center of the Latter-day 
+                    Saint community in Star Valley.
+                    <br><br>
+                    The Star Valley Wyoming Temple was prophesied by Elder Moses Thatcher of the Quorum of the Twelve. 
+                    Thatcher first came to the valley in the late 1870s, looking for a suitable location where colonizing 
+                    Latter-day Saints could settle. Looking over the beautiful valley, he declared, "I hereby name this 
+                    valley Star Valley because it is the star of all valleys." He later returned with Elder Charles C. 
+                    Rich, a senior apostle, to dedicate the valley for Mormon settlement.
+                    <br><br>
+                    The Church has a long history in Star Valley with the first Mormons of record arriving from England 
+                    in 1858 to labor on the Lander Cutoff. By 1870, Church cattle were pastured in the valley, and in 
+                    1879, a directive was issued to colonize the Salt River Valley—renamed Star Valley the next year. 
+                    Members were first organized into a branch of the Bear Lake Stake. In 1892, the Star Valley Stake 
+                    was organized with 7 wards. The 140-foot Star Valley Tabernacle, which still stands in Afton, was 
+                    dedicated on August 15, 1909, by President Joseph F. Smith. There are now two stakes of the Church 
+                    in Star Valley: the Afton Wyoming Stake and the Thayne Wyoming Stake. 
+                </p>
+            </article>
+            <article class="datesclosed">
+
+            </article>
+
+        </main>
+        <footer>
+            <p class="footer">&copy; 2019 - Temple Inn & Suites |
+                <span id="todaysday">Sunday March 31, 2019</span>
+            </p>
+        </footer>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/starvalleyweather.js"></script>
+        <script src="javascript//templeclosure.js"></script>
+        <script src="javascript/currentdate.js"></script>
+	</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Billings Mt Temple</title>
+        <meta name="description" content="Temple in Billings Montana">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat%7cPlayfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+	<body>
+        <header>
+            <img class="headlogo" src="images/small-temple-inn-and-suites.jpg" alt="temple logo">
+            <section class="heading">
+                <h1>Temple Inn & Suites</h1>
+                <p class="motto">Your Temple is our Destination!</p>
+            </section>
+        </header>
+        <nav>
+            <ul class="navlist">
+                <li class="navitems"><a href="#" onclick="hamburger()">&equiv; Menu</a></li>
+                <li class="navitems"><a href="index.html">Home</a></li>
+                <li class="navitems"><a href="billingstemple.html">Billings Temple</a></li>
+                <li class="navitems"><a href="starvalleytemple.html">Star Valley Temple</a></li>
+                <li class="navitems"><a href="columbustemple.html">Columbus Temple</a></li>
+                <li class="navitems"><a href="lubbocktemple.html" class="active">Lubbbock Temple</a></li>
+                <li class="navitems"><a href="reservations.html">Reservations</a></li>
+                <li class="navitems"><a href="services.html">Services</a></li>
+                <li class="navitems"><a href="contact.html">Contact Us</a></li>       
+            </ul>
+        </nav>
+        <main class="gridbox">
+            <div class="currentweatherbox">
+                <div class="currentweather">
+                    <h3>Weather for Lubbock Texas</h3>
+                    <div class="weatherdetails">
+                    <div class="label">Currently:</div>
+                    <div class="value"><span id="current"></div>
+                    <div class="label">Temperature:</div>
+                    <div class="value"><span id="temperature"></span> &#8457;</div>
+                    <div class="label">Wind Chill:</div>
+                    <div class="value" id="windchill"></div>
+                    <div class="label">Humidity:</div>
+                    <div class="value"><span id="humidity"></span> &#37;</div>
+                    <div class="label">Wind Speed:</div>
+                    <div class="value"><span id="windspeed"></span> mph</div>    
+                </div>
+            </div>
+            <article>
+                <p class="para2">
+                    <h3 id="para2h3">Lubbock Texas Temple</h3>
+                    <img class="paraimg" src="images/lubbocktemple.jpg" alt="Lubbock Texas Temple">
+                    The Lubbock Texas Temple stands just behind the Lubbock Texas Stake Center on 
+                    Frankford Avenue in Southwest Lubbock. A stroll around the temple offers a view 
+                    of rich symbolism exhibited in the beautiful panes of stained glass and in the 
+                    etched granite walls. Visitors are welcome to tour the temple exterior and to 
+                    attend Sunday services in the adjacent meetinghouse.
+                    <br><br>
+                    Elder Rex D. Pinegar, who presided at the groundbreaking ceremony, said on that 
+                    occasion, "A family gathers to see and be part of the beginning of the family home 
+                    because it will be a place where they can come to experience the love, receive 
+                    the counsel, and feel the belonging feelings of their earthly family. There are 
+                    few feelings to match that of 'coming home.' We have gathered here today to begin 
+                    construction of a temple which is the symbol of our heavenly home. In this 'heavenly 
+                    home' we will feel the love and experience the presence of the spirit of our Father 
+                    in Heaven." He continued, "Coming to this 'home' we can receive His greatest blessings. 
+                    And, just as there is work to do and service to give around an earthly home to enable 
+                    all family members to enjoy the greatest happiness, there is work to do and service 
+                    to give when we come to this 'home,' the House of the Lord."
+                </p>
+            </article>
+            <article class="datesclosed">
+
+            </article>
+
+        </main>
+        <footer>
+            <p class="footer">&copy; 2019 - Temple Inn & Suites |
+                <span id="todaysday">Sunday March 31, 2019</span>
+            </p>
+        </footer>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/lubbockweather.js"></script>
+        <script src="javascript//templeclosure.js"></script>
+        <script src="javascript/currentdate.js"></script>
+	</body>
+</html>

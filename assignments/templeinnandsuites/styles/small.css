@@ -38,7 +38,7 @@ header {
 
 .navlist li {
     width: 325px;
-    height: 50px;
+    height: 40px;
     background: #95AF60;
     list-style-type: none;
     text-align: center;
@@ -151,5 +151,46 @@ background: #E6D3DE;
 /* Temple page */
 
 .datesclosed {
-    
+
+}
+
+/* Weather info */
+
+.currentweatherbox {
+    margin: 10px auto;
+    border: solid #7a345c 4px;
+    position: relative;
+}
+
+.currentweather {
+
+    margin: 0px;
+    background-color: #E6D3DE;
+    padding: .5rem;
+    text-align: center;
+    border-bottom: 4px solid #7a345c;
+
+}
+.currentweather h3 {
+    border-bottom: .5px solid #7a345c;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+}
+.currentweather div {
+    line-height: 1.2;
+    padding: .1rem;
+    margin:0;
+
+}
+.weatherdetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: .25rem;
+
+}
+.weatherdetails .label {
+    text-align: right;
+}
+.weatherdetails .value {
+    text-align: left;
 }
