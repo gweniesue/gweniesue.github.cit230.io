@@ -65,4 +65,11 @@
         text-align: right;
 
     }
+
+    /* Receptions */
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+
+    }
 }

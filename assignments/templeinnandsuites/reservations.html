@@ -44,20 +44,33 @@
                     <option value="lubbock">Lubbock Texas</option>
                     </select>
                     <br>
-                    <label class="personal">Number of Rooms<input type="number" name="reservedate"></label>
-                    <label class="personal">Type of Room</label> <br>
-                        <input class="roomtype" type="radio" name="type" value="double"> Double<br>
-                        <input class="roomtype" type="radio" name="type" value="single"> Single<br>
-                        <input class="roomtype" type="radio" name="type" value="kitchen"> Kitchenette<br>
-                        <input class="roomtype" type="radio" name="type" value="reception"> Reception Area<br>
-                    <label class="templeinformation">Additional Information</label><br>
+
+                <label class="numberrooms">Number of Rooms</label><br>
+                    <select name="subject">
+                    <option value="">Select Number</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    </select><br><br>
+
+                <label class="personal">Type of Room</label><br>
+                    <input class="roomtype" type="radio" name="type" value="double"> Double <br> 
+                    <input class="roomtype" type="radio" name="type" value="single"> Single<br>
+                    <input class="roomtype" type="radio" name="type" value="kitchen"> Kitchenette<br> 
+                    <input class="roomtype" type="radio" name="type" value="reception"> Reception Area<br> 
+
+                <label class="templeinformation">Additional Information</label>
                     <textarea rows="5" cols="25"></textarea>  
-            </fieldset>
-            <fieldset class="formset">
+
                 <legend class="title">Guest Information</legend>                    
-                <label class="personal">Full Name* <input type="text" name="fullname" pattern="[A-Za-z\s]{5,}" required></label><br>
-                <label class="personal">Email <input type="email" name="email" placeholder="someone@gmail.com"></label><br>
-                <label class="personal">Phone* <input type="tel" name="phone" required placeholder="1235551234"></label><br>
+                <label class="personal">Full Name* <input type="text" name="fullname" pattern="[A-Za-z\s]{5,}" required></label>
+                <label class="personal">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="personal">Phone* <input type="tel" name="phone" required placeholder="1235551234"></label>
                 <label class="personal">Zipcode*<input type="number" name="zip" required></label>
             </fieldset>
             <input class="reservebutton" type="submit" value="Make Your Reservation">

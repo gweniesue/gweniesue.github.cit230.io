@@ -39,6 +39,11 @@
         margin: 0 1.5rem 0 0;
         text-align: right;
     }
+  /* Receptions */
 
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+
+}
 
 }
