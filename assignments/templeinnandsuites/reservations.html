@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Reservations</title>
+        <meta name="description" content="Reservation portal for Temple Inn and Suites">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat%7cPlayfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+	<body>
+        <header>
+            <img class="headlogo" src="images/small-temple-inn-and-suites.jpg" alt="temple logo">
+            <section class="heading">
+                <h1>Temple Inn & Suites</h1>
+                <p class="motto">Your Temple is our Destination!</p>
+            </section>
+        </header>
+        <nav>
+            <ul class="navlist">
+                <li><a href="#" onclick="hamburger()">&equiv; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="billingstemple.html">Temple</a></li>
+                <li><a href="reservations.html" class="active">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>       
+            </ul>
+        </nav>
+        <main>
+            <fieldset class="formset">
+                <legend class="title">Reservations</legend>
+                <label class="reservestart">Starting Date <input type="date" name="reservedate"></label>
+                <label class="reservestart">Ending Date <input type="date" name="reservedate"></label>
+                <br>
+                <label class="templeinformation">Nearby Temple</label>
+                    <select name="subject">
+                    <option value="">Select Temple</option>
+                    <option value="billings">Billings Montana</option>
+                    <option value="starvalley">Star Valley Wyoming</option>
+                    <option value="columbus">Columbus Ohio</option>
+                    <option value="lubbock">Lubbock Texas</option>
+                    </select>
+                    <br>
+                    <label class="personal">Number of Rooms<input type="number" name="reservedate"></label>
+                    <label class="personal">Type of Room</label> <br>
+                        <input class="roomtype" type="radio" name="type" value="double"> Double<br>
+                        <input class="roomtype" type="radio" name="type" value="single"> Single<br>
+                        <input class="roomtype" type="radio" name="type" value="kitchen"> Kitchenette<br>
+                        <input class="roomtype" type="radio" name="type" value="reception"> Reception Area<br>
+                    <label class="templeinformation">Additional Information</label><br>
+                    <textarea rows="5" cols="25"></textarea>  
+            </fieldset>
+            <fieldset class="formset">
+                <legend class="title">Guest Information</legend>                    
+                <label class="personal">Full Name* <input type="text" name="fullname" pattern="[A-Za-z\s]{5,}" required></label><br>
+                <label class="personal">Email <input type="email" name="email" placeholder="someone@gmail.com"></label><br>
+                <label class="personal">Phone* <input type="tel" name="phone" required placeholder="1235551234"></label><br>
+                <label class="personal">Zipcode*<input type="number" name="zip" required></label>
+            </fieldset>
+            <input class="reservebutton" type="submit" value="Make Your Reservation">
+        </main>
+        <footer>
+            <p class="footer">&copy; 2019 - Temple Inn & Suites |
+                <span id="todaysday">Sunday March 31, 2019</span>
+            </p>
+        </footer>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/currentdate.js"></script>
+	</body>
+</html>

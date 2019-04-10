@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Temple Inn & Suites: Billings, MT</title>
+        <meta name="description" content="Hotel catering to Temple visitors and Missionaries">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat%7cPlayfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+	<body>
+        <header>
+            <img class="headlogo" src="images/small-temple-inn-and-suites.jpg" alt="temple logo">
+            <section class="heading">
+                <h1>Temple Inn & Suites</h1>
+                <p class="motto">Your Temple is our Destination!</p>
+            </section>
+        </header>
+        <nav>
+            <ul class="navlist">
+                <li><a href="#" onclick="hamburger()">&equiv; Menu</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="billingstemple.html">Temple</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>       
+            </ul>
+        </nav>
+        <main>
+            <fieldset class="formset">
+                <legend class="title">Personal Information</legend>                    
+                <label class="personal">Full Name* <input type="text" name="fullname" pattern="[A-Za-z\s]{5,}" required></label><br>
+                <label class="personal">Email <input type="email" name="email" placeholder="someone@gmail.com"></label><br>
+                <label class="personal">Phone* <input type="tel" name="phone" required placeholder="1235551234"></label><br>
+                <label class="personal">Zipcode*<input type="number" name="zip" required></label>
+                <label class="templeinformation">Additional Information</label><br>
+                <textarea rows="5" cols="25"></textarea>
+            </fieldset>
+            
+            
+            <input class="reservebutton" type="submit" value="Enter Your Reply">
+
+            <article class="mapinfo">
+                <picture class="mappic">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013216!2d-77.09772048439903!3d38.98325177955757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800+Montgomery+Ln%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1554848664084!5m2!1sen!2sus" width="350" height="100" frameborder="0" style="border:0" allowfullscreen></iframe> 
+                </picture>
+                <div class="mapaddys">
+                    <h3>Temple Inn & Suites</h3>
+                    <ul>
+                        <li>4800 Montgomery Ln #300</li>
+                        <li>Bethesda, MD 20814</li>
+                        <li>&#9993; templeinnandsuites.com</li>
+                    </ul>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <p class="footer">&copy; 2019 - Temple Inn & Suites |
+                <span id="todaysday">Sunday March 31, 2019</span>
+            </p>
+        </footer>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/currentdate.js"></script>
+	</body>
+</html>

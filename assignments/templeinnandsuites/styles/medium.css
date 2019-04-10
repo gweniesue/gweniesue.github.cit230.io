@@ -57,6 +57,12 @@
     .footer {
         font-size: 1rem;
     }
+    .mapinfo {
 
+        height: 150px;
+    }
+    .mapaddys {
+        text-align: right;
 
+    }
 }
