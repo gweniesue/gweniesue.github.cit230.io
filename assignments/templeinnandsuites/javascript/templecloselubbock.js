@@ -28,9 +28,22 @@ request.onload = function() {
             mypara1.textContent = temples[i].address;
             mypara2.textContent = temples[i].citystate;
             mypara3.textContent = temples[i].telephone;
-            mypara4.textContent = 'Temple Closures: ' + temples[i].date;
-            mypara5.textContent = 'Ordinance Schedule: ' + temples[i].ordinanceschedule + ' Walk-ins and Appointments';
-            mypara6.textContent = 'Services: ' + temples[i].templeservices;
+
+            let closing = temples[i].date;
+            for (let j = 0; j < closing.length; j++) {
+                let closelist = document.createElement('li');
+                closelist.textContent = closing[j];
+                mypara4.appendChild(closelist);
+            }
+            
+            mypara5.textContent = 'Ordinance Schedule: ' + temples[i].ordinanceschedule;
+
+            let serving = temples[i].templeservices;
+            for (let k = 0; k < serving.length; k++) {
+                let servelist = document.createElement('li');
+                servelist.textContent = serving[k];
+                mypara6.appendChild(servelist);
+            }
 
             myarticle.appendChild(myh3);
             myarticle.appendChild(mypara1);
