@@ -12,7 +12,7 @@ request.onload = function() {
     let responsedata = request.response;
     let temples = responsedata['closures'];
     for (let i = 0; i < temples.length; i++) {
-        if (temples[i].temple == "Billings, MT") {
+        if (temples[i].temple == "Columbus, OH") {
             let myarticlecontainer = document.createElement('div');
             let myarticle = document.createElement('article');
             let myh3 = document.createElement('h3');

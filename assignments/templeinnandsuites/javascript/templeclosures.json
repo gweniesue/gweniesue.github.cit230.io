@@ -64,21 +64,19 @@
 			"No distribution center nearby"
 		]
 		},{
-		"temple": "Meridian, ID",
-		"address": "7355 N Linder Rd",
-		"citystate": "Meridian, ID",
-		"telephone": "(208) 957-7300",
+		"temple": "Lubbock, TX",
+		"address": "7016 Frankford Ave",
+		"citystate": "Lubbock, TX",
+		"telephone": "(806) 794-0774",
 		"date": [
-			"Saturday, 6 April 2019",
-			"Monday, 3 June - Monday, 17 June 2019",
-			"Thursday, 4 July, 2019",
-			"Saturday, 5 October, 2019",
-			"Monday, 4 November - Monday, 18 November 2019",
-			"Wednesday, 27 November - Thursday, 28 November 2019",
-			"Tuesday, 24 December - Wednesday, 25 December 2019",
-			"Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
+			"Thursday: 4 July, 2019",
+			"Tuesday: 24 September - Monday: 7 October 2019",
+			"Thursday: 28 November",
+			"Tuesday: 24 December",
+			"Wednesday, 25 December 2019",
+			"Tuesday, 31 December 2019"
 		],
-		"ordinanceschedule": "5:15, 6:00, 6:45, 7:30, 8:15, 9:00, 9:45, 10:30, 11:15AM, 12:00, 12:45, 1:30, 2:15, 3:00, 3:45, 4:30, 5:15, 6:00, 6:45 & 7:30PM",
+		"ordinanceschedule": "9:00AM, 11:00AM, 7:00PM",
 		"templeservices": [
 			"No clothing rental available",
 			"No cafeteria available",
