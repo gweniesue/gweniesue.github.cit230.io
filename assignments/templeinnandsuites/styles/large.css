@@ -24,13 +24,17 @@
         height: 100%;
         overflow: auto;
     }
-    
+
     .navlist li {
         width: 250px;
         text-align: left; 
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
+        display: inline-block; 
     }
 
+    .navlist li:first-child {
+        display: none;
+    }
     #hero {
         display: block;
         width: 100%;

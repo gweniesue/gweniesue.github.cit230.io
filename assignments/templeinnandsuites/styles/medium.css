@@ -11,25 +11,15 @@
         width: 200px;
     }
 
-/* Navigation Css */
-    .navlist {
-        width: 100%;
-        font-size: 1rem;
-    }
 
-
-    .navlist li:first-child {
-        display: none;
-    }
-
-    .navlist li {
-        display: inline-block;
-        width: auto;
-    }
 
     /* Main CSS */
 
+/* Navigation Css */
+.navlist li {
 
+    width: 100%;
+}
 
 
     #para2h3 {
