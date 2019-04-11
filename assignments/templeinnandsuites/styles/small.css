@@ -142,21 +142,17 @@ background: #f7f1f5;
 
 /* Temple page */
 
-.datesclosed {
+.templeinfo {
     border: solid #7a345c 4px;
-    padding: 1rem;
+    
 }
-.datesclosed h3{
-    padding: 0 0 .5rem 0;
-}
-
-.datesclosed p {
-    margin: 0 1rem;
-
+.templeinfo h4, ul {
+    margin-bottom: .5rem;
 }
 
 .datesclosed ul {
-    margin: .5rem 1rem; 
+    margin: .5rem 1.5rem; 
+    list-style-type: circle;
 }
 
 /* Weather info */
