@@ -15,7 +15,7 @@
 			"Tuesday, 31 December 2019 (Limited Hours)" 
 		],
 		"ordinanceschedule": "6:00, 7:00, 8:30, 10:00, 11:30AM, 1:00, 4:00, 5:30 & 7:00PM",
-		"services":[
+		"templeservices":[
 			"Clothing rental available",
 			"No cafeteria available",
 			"No patron housing available",
@@ -35,7 +35,7 @@
 			"Tuesday, 31 December 2019"
 		],
 		"ordinanceschedule": "8:30, 11:30AM, 3:30, 6:30PM",
-		"services":[
+		"templeservices":[
 			"No clothing rental available",
 			"No cafeteria available",
 			"No patron housing available",
@@ -57,7 +57,7 @@
 			"Tuesday, 31 December 2019"
 		],
 		"ordinanceschedule": "11:00AM, 1:00, 6:00, & 7:30PM",
-		"services":[
+		"templeservices":[
 			"No clothing rental available",
 			"No cafeteria available",
 			"No patron housing available",
@@ -79,7 +79,7 @@
 			"Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
 		],
 		"ordinanceschedule": "5:15, 6:00, 6:45, 7:30, 8:15, 9:00, 9:45, 10:30, 11:15AM, 12:00, 12:45, 1:30, 2:15, 3:00, 3:45, 4:30, 5:15, 6:00, 6:45 & 7:30PM",
-		"services" : [
+		"templeservices" : [
 			"No clothing rental available",
 			"No cafeteria available",
 			"No patron housing available",

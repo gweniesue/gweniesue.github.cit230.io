@@ -12,6 +12,7 @@
     /* Navigation Css */
     main {
         margin-left: 300px;
+        
     }
 
     .navlist {
@@ -32,7 +33,7 @@
 
     #hero {
         display: block;
-        position: relative;
+        width: 100%;
     }
 
     .footer {
@@ -44,6 +45,8 @@
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
 
+}    .gallery article {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
-
 }

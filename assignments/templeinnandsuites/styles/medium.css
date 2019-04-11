@@ -72,4 +72,9 @@
         grid-template-columns: 1fr 1fr;
 
     }
+
+    .gallery article {
+            grid-column-start: 1;
+            grid-column-end: 3;
+    }
 }

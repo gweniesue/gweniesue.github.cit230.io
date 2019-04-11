@@ -12,28 +12,48 @@ request.onload = function() {
     let responsedata = request.response;
     let temples = responsedata['closures'];
     for (let i = 0; i < temples.length; i++) {
-        if (temples[i].name == "Billings, MT") {
-            let addy = temples[i].address;
-            let citystate = temples[i].citystate;
-            let phone = temples[i].telephone
-            let close = temples[i].date;
-            let ordinance = temples[i].ordinaceschedule;
+        if (temples[i].temple == "Billings, MT") {
+            let myarticlecontainer = document.createElement('div');
+            let myarticle = document.createElement('article');
+            let myh3 = document.createElement('h3');
+            let mypara1 = document.createElement('p');
+            let mypara2 = document.createElement('p');
+            let mypara3 = document.createElement('p');
+            let mypara4 = document.createElement('p');
+            let mypara5 = document.createElement('p');
+            let mypara6 = document.createElement('p');
 
+            let datecount = 0;
             for (let j = 0; j < date.length; j++) {
-                let cdate = date[j];
-            }
-                for (let k = 0; k < services.length; k++) {
-                    let service = service[k]; 
-                }   
-                
-            let myArticle = document.createElement('article');
-            let myparagraph = document.createElement('p');
+                let closedate = date[datecount];
+                datecount++; 
+                }
+            let servicecount = 0;
+            for (let k = 0; k < templeservices.length; k++) {
+                let tservices = templeservices[servicecount]; 
+                servicecount++;
+                }
+            
+            myh3.textContent = temples[i].temple + "Temple";
+            mypara1.textContent = temples[i].address;
+            mypara2.textContent = temples[i].citystate;
+            mypara3.textContent = temples[i].telephone;
+            mypara4.textContent = temples[i].date;
+            mypara5.textContent = temples[i].ordinanceschedule;
+            mypara6.textContent = temples[i].templeservices;
 
-            myparagraph.textContent = event;
-            myArticle.appendChild(myparagraph);
-            townevents.appendChild(myArticle);  
+            myarticle.appendChild(myh3);
+            myarticle.appendChild(mypara1);
+            myarticle.appendChild(mypara2);
+            myarticle.appendChild(mypara3);
+            myarticle.appendChild(mypara4);
+            myarticle.appendChild(mypara5);
+            myarticle.appendChild(mypara6);
 
-           
+            output.appendChild(myarticlecontainer);
+            myarticlecontainer.appendChild(myarticle);
+
+
         }
     }
 
