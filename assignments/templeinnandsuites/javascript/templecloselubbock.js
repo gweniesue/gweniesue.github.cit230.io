@@ -19,18 +19,18 @@ request.onload = function() {
             let mypara1 = document.createElement('p');
             let mypara2 = document.createElement('p');
             let mypara3 = document.createElement('p');
-            let mypara4 = document.createElement('p');
+            let mypara4 = document.createElement('ul');
             let mypara5 = document.createElement('p');
-            let mypara6 = document.createElement('p');
+            let mypara6 = document.createElement('ul');
 
             
             myh3.textContent = temples[i].temple + " Temple";
             mypara1.textContent = temples[i].address;
             mypara2.textContent = temples[i].citystate;
             mypara3.textContent = temples[i].telephone;
-            mypara4.textContent = temples[i].date;
-            mypara5.textContent = temples[i].ordinanceschedule;
-            mypara6.textContent = temples[i].templeservices;
+            mypara4.textContent = 'Temple Closures: ' + temples[i].date;
+            mypara5.textContent = 'Ordinance Schedule: ' + temples[i].ordinanceschedule + ' Walk-ins and Appointments';
+            mypara6.textContent = 'Services: ' + temples[i].templeservices;
 
             myarticle.appendChild(myh3);
             myarticle.appendChild(mypara1);

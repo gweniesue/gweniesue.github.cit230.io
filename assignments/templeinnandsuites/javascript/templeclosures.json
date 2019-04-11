@@ -5,14 +5,14 @@
 		"citystate": "Billings, MT",
 		"telephone": "(406) 655-0607",
 		"date": [ 
-			"Saturday, 6 April 2019",
-			"Monday, 6 May - Monday, 20 May 2019",
-			"Thursday, 4 July, 2019",
-			"Saturday, 5 October, 2019",
-			"Monday, 4 November - Monday, 11 November 2019",
-			"Thursday, 28 November 2019",
-			"Tuesday, 24 December - Wednesday, 25 December 2019",
-			"Tuesday, 31 December 2019 (Limited Hours)" 
+			"Saturday: 6 April 2019",
+			"Monday: 6 May - Monday, 20 May 2019",
+			"Thursday: 4 July, 2019",
+			"Saturday: 5 October, 2019",
+			"Monday: 4 November - Monday, 11 November 2019",
+			"Thursday: 28 November 2019",
+			"Tuesday: 24 December - Wednesday, 25 December 2019",
+			"Tuesday: 31 December 2019 (Limited Hours)" 
 		],
 		"ordinanceschedule": "6:00, 7:00, 8:30, 10:00, 11:30AM, 1:00, 4:00, 5:30 & 7:00PM",
 		"templeservices": [
@@ -27,12 +27,12 @@
 		"citystate": "Afton, WY",
 		"telephone": "(307)886-6820",
 		"date": [
-			"Monday, 25 March - Monday, 8 April 2019",
-			"Thursday, 4 July, 2019",
-			"Monday, 23 September - Monday, 7 October 2019",
-			"Wednesday, 27 November - Thursday, 28 November 2019",
-			"Tuesday, 24 December - Wednesday, 25 December 2019",
-			"Tuesday, 31 December 2019"
+			"Monday: 25 March - Monday, 8 April 2019",
+			"Thursday: 4 July, 2019",
+			"Monday: 23 September - Monday, 7 October 2019",
+			"Wednesday: 27 November - Thursday, 28 November 2019",
+			"Tuesday: 24 December - Wednesday, 25 December 2019",
+			"Tuesday: 31 December 2019"
 		],
 		"ordinanceschedule": "8:30, 11:30AM, 3:30, 6:30PM",
 		"templeservices": [
@@ -47,14 +47,14 @@
 		"citystate": "Columbus, OH",
 		"telephone": "(614) 351-5001",
 		"date": [ 
-			"Tuesday, 26 March - Saturday, 6 April 2019",
-			"Thursday, 4 July, 2019",
-			"Tuesday, 24 September - Saturday, 5 October, 2019",
-			"Thursday, 28 November 2019",
-			"Tuesday, 24 December 2019",
-			"Wednesday, 25 December 2019",
-			"Thursday, 26 December 2019",
-			"Tuesday, 31 December 2019"
+			"Tuesday: 26 March - Saturday, 6 April 2019",
+			"Thursday: 4 July, 2019",
+			"Tuesday: 24 September - Saturday, 5 October, 2019",
+			"Thursday: 28 November 2019",
+			"Tuesday: 24 December 2019",
+			"Wednesday: 25 December 2019",
+			"Thursday: 26 December 2019",
+			"Tuesday: 31 December 2019"
 		],
 		"ordinanceschedule": "11:00AM, 1:00, 6:00, & 7:30PM",
 		"templeservices": [
@@ -71,10 +71,10 @@
 		"date": [
 			"Thursday: 4 July, 2019",
 			"Tuesday: 24 September - Monday: 7 October 2019",
-			"Thursday: 28 November",
-			"Tuesday: 24 December",
-			"Wednesday, 25 December 2019",
-			"Tuesday, 31 December 2019"
+			"Thursday: 28 November 2019",
+			"Tuesday: 24 December 2019",
+			"Wednesday: 25 December 2019",
+			"Tuesday: 31 December 2019"
 		],
 		"ordinanceschedule": "9:00AM, 11:00AM, 7:00PM",
 		"templeservices": [
